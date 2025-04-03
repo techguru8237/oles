@@ -1,7 +1,7 @@
 import CustomNav from "./NavBar";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubSquare, faLinkedin, faHackerrank } from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import DeveloperSvg from "../utils/developerSvg";
 import Particles from "../utils/particles";
 import Typist from "react-typist";
@@ -63,16 +63,6 @@ const Home = () => {
               >
                 <FontAwesomeIcon size="2x" icon={faLinkedin} />
               </Button>
-              {/* <Button
-                variant=""
-                className="color-custom-blue p-0 mr-3 border-0"
-                aria-label="hackerrank"
-                onClick={() =>
-                  window.open("https://hackerrank.com/bipinmv23", "_blank")
-                }
-              >
-                <FontAwesomeIcon spin size="2x" icon={faHackerrank} />
-              </Button> */}
             </div>
             <Button
               className="bg-custom-blue font-weight-bold shadow-sm border-0 resume-btn"
