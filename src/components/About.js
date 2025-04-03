@@ -12,7 +12,7 @@ const About = () => {
                     <div className="px-lg-5 about-text text-justify">
                         <p className="about-me-block">About</p>
                         <p>
-                            A Full Stack Developer from Kerala.
+                            A Full Stack Developer from Ukraine.
                             Have strong experience in developing UI and CRUD APIs, and always open to new directions of programming.
                         </p>
                         <p>

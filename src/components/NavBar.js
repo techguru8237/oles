@@ -18,7 +18,7 @@ const navItems = [{
 const CustomNav = () => {
   return (
     <Navbar bg="" expand="md" className="nav-color nav-slide">
-      <Link className="text-decoration-none bipin-signature" to="/">{"< Bipin mv />"}</Link>
+      <Link className="text-decoration-none oles-signature" to="/">{"< Oles Bondar />"}</Link>
       <Navbar.Toggle className="border-0" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="bg-white">
         <Nav className="mx-auto">
